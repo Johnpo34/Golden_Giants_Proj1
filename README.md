@@ -1,13 +1,13 @@
 # Golden_Giants_Proj1
- 
- # Project Title: Language Translation
+  # Project Title: Language Translation
 
 - Project Description: A website where users can go to to translate languages
 
 - User Story:
 As a user, I want to be able to go onto this website and in the search box type in sentences or just words and translate them to a specific languege. A picture will show
 
-- Groundwok Cards
+- Groundwo
+k Cards
 
 - APIs: Google Translate & Groundwork
 
