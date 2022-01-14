@@ -8,6 +8,10 @@
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+
     <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
@@ -15,15 +19,12 @@
 <body>
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo">Logo</a>
+            <a id="logo-container" href="#" class="brand-logo">Golden Giants</a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">Navbar Link</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="#Contact-Us">Contact</a></li>
+                <li><a href="#Bio">About us</a></li>
             </ul>
-
-            <ul id="nav-mobile" class="sidenav">
-                <li><a href="#">Navbar Link</a></li>
-            </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
     </nav>
 
@@ -37,9 +38,19 @@
                     </h5>
                 </div>
                 <div class="row center">
-                    <input class="language-search" placeholder="Type Search Here">
+            
+ 
+                    <input class="language-search" placeholder="Enter Text You Want Translated">
+                    <div class="input-field col s12">
+                        <a href="#" data-target="dropdown" class ="btn-large waves-effect waves-light teal ligten-1 dropdown-trigger">Drop Down</a>
+                        <ul class="dropdown-content" id="dropdown">
+                            <li><a href="#">Arabic</a></li>
+                            <li><a href="#">Spanish</a></li>
+                            <li><a href="#">French</a></li>
+                        </ul>
                     <a href="http://materializecss.com/getting-started.html" id="download-button"
                         class="btn-large waves-effect waves-light teal lighten-1">Search</a>
+
                 </div>
                 <br><br>
 
@@ -103,21 +114,25 @@
         <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
     </div>
 
-    <div class="container">
+    <div id="Contact-Us" class="container">
         <div class="section">
 
             <div class="row">
                 <div class="col s12 center">
                     <h3><i class="mdi-content-send brown-text"></i></h3>
                     <h4>Contact Us</h4>
-                    <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                        scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna
-                        fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra
-                        ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam
-                        eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi
-                        massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non
-                        tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-                        Curae;</p>
+                    <p class="left-align light">
+                        <ul>John:
+                                <li><a href=mailto:johnpo34@yahoo.com>Email</a></li>
+                                <li><a href="https://www.linkedin.com/feed/">Linkedin</a></li>
+                            Tyler:
+                                <li><a href=mailto:>Email</a></li>
+                                <li><a href=>Linkedin</a></li>
+                            Roanld:
+                                <li><a href=mailto:>Email</a></li>
+                                <li><a href=>Linkedin</a></li>
+                        </ul>
+                    </p>
                 </div>
             </div>
 
@@ -137,7 +152,7 @@
         <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
     </div>
 
-    <footer class="page-footer teal">
+    <footer id="Bio" class="page-footer teal">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
@@ -170,17 +185,18 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">John P., Ronald C., and Tyler G.</a>
             </div>
         </div>
     </footer>
 
 
     <!--  Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="../../dist/js/materialize.js"></script>
     <script src="js/init.js"></script>
-    
+    <script src="Java/js.js"></script>
 
 </body>
 
