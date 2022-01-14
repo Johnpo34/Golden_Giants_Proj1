@@ -8,6 +8,10 @@
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+
     <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
@@ -37,9 +41,19 @@
                     </h5>
                 </div>
                 <div class="row center">
-                    <input class="language-search" placeholder="Type Search Here">
+            
+ 
+                    <input class="language-search" placeholder="Enter Text You Want Translated">
+                    <div class="input-field col s12">
+                        <a href="#" data-target="dropdown" class ="btn-large waves-effect waves-light teal ligten-1 dropdown-trigger">Drop Down</a>
+                        <ul class="dropdown-content" id="dropdown">
+                            <li><a href="#">Arabic</a></li>
+                            <li><a href="#">Spanish</a></li>
+                            <li><a href="#">French</a></li>
+                        </ul>
                     <a href="http://materializecss.com/getting-started.html" id="download-button"
                         class="btn-large waves-effect waves-light teal lighten-1">Search</a>
+
                 </div>
                 <br><br>
 
@@ -177,9 +191,11 @@
 
 
     <!--  Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="../../dist/js/materialize.js"></script>
     <script src="js/init.js"></script>
+    <script src="Java/js.js"></script>
 
 </body>
 
