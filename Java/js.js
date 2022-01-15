@@ -2,7 +2,6 @@ var translateButton=document.getElementById("download-button")
 var inputData = document.querySelector('.userInput')
 
 
-
 document.addEventListener('DOMContentLoaded', function() {
     var drop = document.querySelectorAll('.dropdown-trigger');
     M.Dropdown.init(drop);
