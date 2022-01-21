@@ -5,10 +5,29 @@
  *
  * Made By MaterializeCSS.com
  */
+ .flag{
+   height: 50px;
+   margin: 5px;
+ }
+
+ .flag-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
 
 nav ul a,
 nav .brand-logo {
   color: #444;
+}
+
+.selected-lang {
+    cursor: pointer;
+}
+.selected-lang:before {
+  content: '';
+  display: block;
+  background-image: url(https://www.countryflagsapi.com/);
 }
 
 p {
