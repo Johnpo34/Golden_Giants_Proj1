@@ -1,4 +1,11 @@
+
 var translateButton = document.getElementById("download-button")
+
+var translateButton=document.getElementById("download-button")
+
+var inputData = document.querySelector('.userInput');
+
+
 var inputData = document.querySelector('.userInput')
 var showForm = document.getElementById('showForm')
 var selectButton = document.getElementById('selectButton')
@@ -13,6 +20,18 @@ document.addEventListener('DOMContentLoaded', function () {
   // M.Dropdown.init(drop);
   init();
 
+
+
+
+
+var arabicLi = document.querySelector("#arabic-li");
+var spanishLi = document.querySelector("#spanish-li");
+var frenchLi = document.querySelector("#french-li");
+
+document.addEventListener('DOMContentLoaded', function() {
+    // var drop = document.querySelectorAll('.dropdown-trigger');
+    // M.Dropdown.init(drop);
+    
 
 });
 
