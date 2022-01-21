@@ -1,4 +1,7 @@
 var translateButton=document.getElementById("download-button")
+
+var inputData = document.querySelector('.userInput');
+
 var inputData = document.querySelector('.userInput')
 var showForm = document.getElementById('showForm')
 var selectButton = document.getElementById('selectButton')
@@ -6,6 +9,13 @@ var arabicSelect = document.getElementById('arabicCheck')
 var spanishSelect = document.getElementById('spanishCheck')
 var frenchSelect = document.getElementById('frenchCheck')
 
+
+
+
+
+var arabicLi = document.querySelector("#arabic-li");
+var spanishLi = document.querySelector("#spanish-li");
+var frenchLi = document.querySelector("#french-li");
 
 document.addEventListener('DOMContentLoaded', function() {
     // var drop = document.querySelectorAll('.dropdown-trigger');
@@ -31,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
       source: "en",
-      target: "es",
+      target: targetLanguage,
       format: "text"
     }),
     headers: { "Content-Type": "application/json" }
