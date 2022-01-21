@@ -7,6 +7,7 @@
     <title>Language Translator</title>
 
     <!-- CSS  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" >
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
@@ -19,9 +20,9 @@
 <body>
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo">Golden Giants</a>
+            <a id="logo-container" href="#" class="brand-logo teal-text text-lighten-2">Golden Giants</a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="/">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#Contact-Us">Contact</a></li>
                 <li><a href="#Bio">About us</a></li>
             </ul>
@@ -42,21 +43,51 @@
 
                 </div>
                 <br><br>
-                <h1 class="header center teal-text text-lighten-2">Golden Giants Language Translator</h1>
+                <h1 id ="Golden_Giants" class="header center teal-text text-lighten-2">Golden Giants Language Translator</h1>
                 <div class="row center">
                     <h5 class="header col s12 light">A modern translator
                     </h5>
                 </div>
                 <div class="row center">
-            
                     <div class="input-field col s12">
-                        <input class="userInput col s12" placeholder="Enter Text You Want Translated"></input>
+                    <input class="userInput col s12" placeholder="Enter Text You Want Translated"></input>
+                            <div id="selectButton" data-target="dropdown"  class ="btn-large waves-effect waves-light teal ligten-1">Select Language</div>
+  <form action="#" id="showForm">
+    <p>
+      <label>
+        <input name="group1" type="radio" id="arabicCheck" />
+        <span>Arabic</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio" id="spanishCheck"/>
+        <span>Spanish</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio" id="frenchCheck" />
+        <span>French</span>
+      </label>
+    </p>
+
+  </form>
+
+                        <!-- <input class="userInput col s12" placeholder="Enter Text You Want Translated"></input>
                         <a href="#" data-target="dropdown" class ="btn-large waves-effect waves-light teal ligten-1 dropdown-trigger">Language Translator</a>
                         <ul class="dropdown-content" id="dropdown">
+
                             <li id="arabic-li"><a href="#">Arabic</a></li>
                             <li id="spanish-li"><a href="#">Spanish</a></li>
                             <li id="French-li"><a href="#">French</a></li>
                         </ul>
+
+                            <li><a href="#">Arabic</a></li>
+                            <li><a href="#">Spanish</a></li>
+                            <li><a href="#">French</a></li>
+                        </ul> -->
+                  
                         <div id="download-button"
                         class="btn-large waves-effect waves-light teal lighten-1">Translate</div>
                     </div>    
@@ -108,10 +139,21 @@
         </div>
     </div>
 
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                 
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="" alt="Unsplashed background img 3"></div>
+    </div>
+
     <div class="container">
         <div class="section">
 
-            <div class="row">
+            <div id="Contact-Us" class="row">
                 <div class="col-s12 center black-text">
                     <h3><i class="mdi-content-send black-text"></i></h3>
                     <h4>Contact Us</h4>
@@ -134,19 +176,6 @@
         </div>
     </div>
 
-
-    <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <div class="row center">
-                    <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design
-                    </h5>
-                </div>
-            </div>
-        </div>
-        <div class="parallax"><img src="" alt="Unsplashed background img 3"></div>
-    </div>
-
     <footer id="Bio" class="page-footer teal">
         <div class="container">
             <div class="row">
@@ -159,10 +188,10 @@
                 <div class="col l3 s12">
                     <h5 class="white-text">Settings</h5>
                     <ul>
-                        <li><a class="white-text" href="#!">Link 1</a></li>
-                        <li><a class="white-text" href="#!">Link 2</a></li>
-                        <li><a class="white-text" href="#!">Link 3</a></li>
-                        <li><a class="white-text" href="#!">Link 4</a></li>
+                        <li><a class="white-text" href="https://www.youtube.com/watch?v=t7-nb1wlnyA">Learn Spanish</a></li>
+                        <li><a class="white-text" href="https://www.youtube.com/watch?v=UvWJoZJfVuk">Learn Arabic</a></li>
+                        <li><a class="white-text" href="https://www.youtube.com/watch?v=gd4TwRdlMxM">Learn French</a></li>
+                        <li><a class="white-text" href="https://www.youtube.com/watch?v=ATuiEVOsEis">Learn English</a></li>
                     </ul>
                 </div>
                 <div class="col l3 s12">
@@ -185,7 +214,7 @@
 
 
     <!--  Scripts-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <!-- <script src="../../dist/js/materialize.js"></script>
     <script src="js/init.js"></script> -->

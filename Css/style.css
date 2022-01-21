@@ -21,6 +21,7 @@ nav .brand-logo {
   color: #444;
 }
 
+
 .selected-lang {
     cursor: pointer;
 }
@@ -28,6 +29,9 @@ nav .brand-logo {
   content: '';
   display: block;
   background-image: url(https://www.countryflagsapi.com/);
+
+#Golden_Giants {
+  font-family: 'Luxurious Roman', cursive;
 }
 
 p {
@@ -74,3 +78,8 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+#showForm{
+  display:none
+}
+
